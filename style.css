@@ -1,0 +1,27 @@
+#label, #confidence{
+    font-size: 25px;
+    color: black;
+}
+
+body{
+    background-color: hotpink;
+}
+
+h1{
+    color: black;
+    background-color: yellow;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
